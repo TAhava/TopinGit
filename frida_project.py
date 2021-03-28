@@ -34,7 +34,7 @@ dates = (("1939"), ("1933"), ("1946"), ("1940"))
 # In[45]:
 
 
-combined = zip(paintings, dates)
+combined = zip(paintings, dates) #this step, though providing clarity, was a bit unnecessary, paintings = list(zip(paintings.dates)) would have done the job
 paintings = list(zip(combined))
 print(paintings)
 
