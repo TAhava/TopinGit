@@ -35,6 +35,7 @@ dates = (("1939"), ("1933"), ("1946"), ("1940"))
 
 
 combined = zip(paintings, dates)
+#Does this sync to GitHub?
 paintings = list(zip(combined))
 print(paintings)
 
